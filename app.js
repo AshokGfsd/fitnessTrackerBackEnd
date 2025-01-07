@@ -13,7 +13,7 @@ console.log("This", URL);
 app = express();
 app.use(
   cors({
-    origin: "*",
+    origin: "https://fitness-tracker-fe.vercel.app",
     credentials: true,
   })
 );
